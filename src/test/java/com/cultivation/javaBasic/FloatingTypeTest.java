@@ -69,7 +69,6 @@ class FloatingTypeTest {
     @SuppressWarnings("unused")
     private boolean isInfinity(double realNumber) {
         // TODO: please find the method that perform this operation.
-        Double num = realNumber;
-        return num.isInfinite();
+        return new Double(realNumber).isInfinite();
     }
 }
